@@ -1,7 +1,8 @@
 package com.princekr.nlp.mt.tm;
 
 /**
- * Created by prince on 2017/10/29.
+ * Interface for data structures that query and score rules
+ * for specific inputs.
  */
-public interface TranslationModel {
+public interface TranslationModel<TK, FV> {
 }

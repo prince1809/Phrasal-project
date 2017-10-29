@@ -1,7 +1,11 @@
 package com.princekr.nlp.mt.decoder;
 
 /**
- * Created by prince on 2017/10/29.
+ * Interface for decoding algorithms.
  */
-public interface Inferer {
+public interface Inferer<TK, FV> {
+
+    public static enum NbestMode {
+        Standard, Diverse, Combined
+    }
 }

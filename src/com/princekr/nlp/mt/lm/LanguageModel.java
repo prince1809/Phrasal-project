@@ -1,7 +1,7 @@
 package com.princekr.nlp.mt.lm;
 
 /**
- * Created by prince on 2017/10/29.
+ * Interface for language models.
  */
-public interface LanguageModel {
+public interface LanguageModel<T> {
 }
